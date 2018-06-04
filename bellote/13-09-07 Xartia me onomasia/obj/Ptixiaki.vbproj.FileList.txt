@@ -1,0 +1,10 @@
+obj\Debug\Ptixiaki.exe
+obj\Debug\Ptixiaki.pdb
+bin\Ptixiaki.exe
+bin\Ptixiaki.pdb
+bin\Ptixiaki.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Ptixiaki.Form1.resources
+obj\Debug\Ptixiaki.vbproj.GenerateResource.Cache
+obj\Debug\Ptixiaki.xml
+obj\Debug\Ptixiaki.DataForm.resources

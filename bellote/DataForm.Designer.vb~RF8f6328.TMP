@@ -1,0 +1,85 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class DataForm
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.HeartsComboBox = New System.Windows.Forms.ComboBox
+        Me.DiamondsComboBox = New System.Windows.Forms.ComboBox
+        Me.ClubsComboBox = New System.Windows.Forms.ComboBox
+        Me.SpadesComboBox = New System.Windows.Forms.ComboBox
+        Me.SuspendLayout()
+        '
+        'HeartsComboBox
+        '
+        Me.HeartsComboBox.FormattingEnabled = True
+        Me.HeartsComboBox.Location = New System.Drawing.Point(12, 39)
+        Me.HeartsComboBox.Name = "HeartsComboBox"
+        Me.HeartsComboBox.Size = New System.Drawing.Size(156, 21)
+        Me.HeartsComboBox.TabIndex = 0
+        Me.HeartsComboBox.Text = "HeartsData"
+        '
+        'DiamondsComboBox
+        '
+        Me.DiamondsComboBox.FormattingEnabled = True
+        Me.DiamondsComboBox.Location = New System.Drawing.Point(198, 39)
+        Me.DiamondsComboBox.Name = "DiamondsComboBox"
+        Me.DiamondsComboBox.Size = New System.Drawing.Size(156, 21)
+        Me.DiamondsComboBox.TabIndex = 1
+        Me.DiamondsComboBox.Text = "DiamondsData"
+        '
+        'ClubsComboBox
+        '
+        Me.ClubsComboBox.FormattingEnabled = True
+        Me.ClubsComboBox.Location = New System.Drawing.Point(390, 39)
+        Me.ClubsComboBox.Name = "ClubsComboBox"
+        Me.ClubsComboBox.Size = New System.Drawing.Size(156, 21)
+        Me.ClubsComboBox.TabIndex = 2
+        Me.ClubsComboBox.Text = "ClubsData"
+        '
+        'SpadesComboBox
+        '
+        Me.SpadesComboBox.FormattingEnabled = True
+        Me.SpadesComboBox.Location = New System.Drawing.Point(575, 39)
+        Me.SpadesComboBox.Name = "SpadesComboBox"
+        Me.SpadesComboBox.Size = New System.Drawing.Size(156, 21)
+        Me.SpadesComboBox.TabIndex = 3
+        Me.SpadesComboBox.Text = "SpadesData"
+        '
+        'DataForm
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(747, 264)
+        Me.Controls.Add(Me.SpadesComboBox)
+        Me.Controls.Add(Me.ClubsComboBox)
+        Me.Controls.Add(Me.DiamondsComboBox)
+        Me.Controls.Add(Me.HeartsComboBox)
+        Me.Name = "DataForm"
+        Me.Text = "DataForm"
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents HeartsComboBox As System.Windows.Forms.ComboBox
+    Friend WithEvents DiamondsComboBox As System.Windows.Forms.ComboBox
+    Friend WithEvents ClubsComboBox As System.Windows.Forms.ComboBox
+    Friend WithEvents SpadesComboBox As System.Windows.Forms.ComboBox
+End Class
